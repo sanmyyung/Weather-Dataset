@@ -8,6 +8,8 @@ This project provides a step-by-step approach to analyzing weather data with Pyt
 - Displayed the top 2 records of the dataframe for reference.
 - Used the `nunique()` function on the 'Wind Speed' column to determine that there are 34 unique values.
 - Retrieved and displayed these values using the `unique()` function.
+  
+![](https://raw.githubusercontent.com/sanmyyung/Weather-Dataset/refs/heads/main/Q1.webp)
 
 ### Q2) Count the occurrences of ‘Weather is exactly Clear’.
 - Explored three methods: `value_counts`, filtering, and `groupby` with `get_group` to confirm that there are 1326 instances of clear weather.
