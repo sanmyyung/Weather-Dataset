@@ -25,7 +25,7 @@ This project provides a step-by-step approach to analyzing weather data with Pyt
 - Used `isnull()` and `notnull()` functions to confirm no missing values in any column.
 
 ![](https://raw.githubusercontent.com/sanmyyung/Weather-Dataset/refs/heads/main/Q4.webp)
-
+![](https://raw.githubusercontent.com/sanmyyung/Weather-Dataset/refs/heads/main/Q4B.webp)
 ### Q5) Rename the column ‘Weather’ to ‘Weather Condition’.
 - Renamed 'Weather' to 'Weather Condition' using the `rename()` function with `inplace=True` for permanence.
 
@@ -76,21 +76,15 @@ This project provides a step-by-step approach to analyzing weather data with Pyt
 ### Q14) Find all instances where ‘Weather is Clear’ or ‘Visibility is above 40’.
 - Applied OR (`|`) operator with two conditions to retrieve 3027 records matching either condition.
 
-![]()
+![](https://raw.githubusercontent.com/sanmyyung/Weather-Dataset/refs/heads/main/Q14.webp)
 
 ### Q15) Find all instances where:
   - A. ‘Weather is Clear’ and ‘Relative Humidity is greater than 50’
   - B. ‘Visibility is above 40’
 - Used combined conditions with AND (`&`) and OR (`|`) operators to filter for 2921 matching records.
 
+![](https://raw.githubusercontent.com/sanmyyung/Weather-Dataset/refs/heads/main/Q15.webp)
+
 ## Dependencies
 - Pandas
-- NumPy
 
-## Usage
-1. Clone the repository.
-2. Run the Python script in your preferred environment.
-3. Review the analysis output for insights on weather patterns in the data.
-
-## License
-This project is licensed under the MIT License.
