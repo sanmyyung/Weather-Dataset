@@ -14,14 +14,23 @@ This project provides a step-by-step approach to analyzing weather data with Pyt
 ### Q2) Count the occurrences of ‘Weather is exactly Clear’.
 - Explored three methods: `value_counts`, filtering, and `groupby` with `get_group` to confirm that there are 1326 instances of clear weather.
 
+![](https://raw.githubusercontent.com/sanmyyung/Weather-Dataset/refs/heads/main/Q2.webp)
+
 ### Q3) Count the number of times ‘Wind Speed’ was exactly 4 km/h.
 - Used filtering on the 'Wind Speed_km/h' column to find 474 instances with exactly 4 km/h.
+
+![](https://raw.githubusercontent.com/sanmyyung/Weather-Dataset/refs/heads/main/Q3.webp)
 
 ### Q4) Check for Null (Missing) Values in the data.
 - Used `isnull()` and `notnull()` functions to confirm no missing values in any column.
 
+![](https://raw.githubusercontent.com/sanmyyung/Weather-Dataset/refs/heads/main/Q4.webp)
+
 ### Q5) Rename the column ‘Weather’ to ‘Weather Condition’.
 - Renamed 'Weather' to 'Weather Condition' using the `rename()` function with `inplace=True` for permanence.
+
+![](https://raw.githubusercontent.com/sanmyyung/Weather-Dataset/refs/heads/main/Q5A.webp)
+![](https://raw.githubusercontent.com/sanmyyung/Weather-Dataset/refs/heads/main/Q5B.webp)
 
 ### Q6) Calculate the mean ‘Visibility’.
 - Used the `mean()` function on 'Visibility_km' to obtain a mean of 27.66.
